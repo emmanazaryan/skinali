@@ -1,0 +1,24 @@
+{
+  "name": "skinali",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "aram": "echo \"barev aram\" && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanazaryan/skinali.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmanazaryan/skinali/issues"
+  },
+  "homepage": "https://github.com/emmanazaryan/skinali#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
