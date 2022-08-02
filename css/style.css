@@ -48,6 +48,21 @@ body {
   color: #262626;
 }
 
+.section {
+  padding: 100px 0;
+}
+
+.section-title {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Proxima Nova Semibold' , sans-serif;
+  text-transform: uppercase;
+}
+
+.section_title {
+  margin-bottom: 100px;
+}
+
 .button_o {
   padding: 16px 22px;
   border: 2px solid #507fe1;
@@ -119,6 +134,12 @@ body {
 @media (max-width: 576px) {
   .button_o {
     font-size: 10px;
+  }
+  .section {
+    padding: 60px 0;
+  }
+  .section-title {
+    font-size: 24px;
   }
 }
 
@@ -403,6 +424,43 @@ body {
   }
   .form_input {
     margin-bottom: 20px;
+  }
+}
+
+.feature-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.feature-block_item {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+  text-align: center;
+}
+
+.feature-block_image {
+  width: 70px;
+  height: 70px;
+}
+
+@media (max-width: 991px) {
+  .feature-block_item {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-block_item {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */
